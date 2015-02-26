@@ -4,6 +4,7 @@
 	<remote  name="aosp" fetch=".." />
 	<remote  name="gh" fetch="https://github.com/" />
 	<remote  name="sicki" fetch="https://github.com/sicknemesis/" />
+	<remote  name="google" fetch="https://android.googlesource.com" />
 	<default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
