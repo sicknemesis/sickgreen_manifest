@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="aosp" fetch=".." />
+	<remote  name="aosp" fetch="https://android-review.googlesource.com/" />
 	<remote  name="gh" fetch="https://github.com/" />
 	<remote  name="sicki" fetch="https://github.com/sicknemesis/" />
 	<remote  name="google" fetch="https://android.googlesource.com" />
