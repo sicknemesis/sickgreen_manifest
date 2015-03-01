@@ -518,9 +518,9 @@
 <!-- Added stuff -->
 <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
 <!-- Toolchains -->
-<project name="kecinzer/sm-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
-<project name="kecinzer/sm-arm-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="master" />
-<project name="kecinzer/sm-arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+<project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
+<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="master" />
+<project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gh" revision="master" />
 <!-- Blobs -->
 <project name="rascarlo/android_vendor_lge" path="vendor/lge" remote="gh" revision="lollipop-ras-mr1" />
 <!-- My Vendor -->
