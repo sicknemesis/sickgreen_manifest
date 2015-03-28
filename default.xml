@@ -4,6 +4,7 @@
 	<remote  name="aosp" fetch="https://android.googlesource.com." />
 	<remote  name="gh" fetch="https://github.com/" />
 	<remote  name="sicki" fetch="https://github.com/sicknemesis/" />
+	<remote name="BB" fetch="https://bitbucket.org/" />
 	<default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -31,7 +32,7 @@
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" /> -->
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
+  <!-- <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -47,7 +48,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <!-- <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
+  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" /> -->
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="master" />
   <!-- <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" /> -->
@@ -518,9 +519,9 @@
 <!-- Added stuff -->
 <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
 <!-- Toolchains -->
-<project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="master" />
-<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="master" />
-<project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gh" revision="master" />
+<project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="BB" revision="master" />
+<project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="BB" revision="master" />
+<project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="BB" revision="master" />
 <!-- Blobs -->
 <project name="rascarlo/android_vendor_lge" path="vendor/lge" remote="gh" revision="lollipop-ras-mr1" />
 <!-- My Vendor -->
