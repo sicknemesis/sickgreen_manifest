@@ -523,7 +523,7 @@
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="BB" revision="master" />
 <project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="BB" revision="master" />
 <!-- Blobs -->
-<project name="rascarlo/android_vendor_lge" path="vendor/lge" remote="gh" revision="lollipop-ras-mr1" />
+<project name="sicknemesis/android_vendor_lge" path="vendor/lge" remote="gh" revision="master" />
 <!-- My Vendor -->
 <project name="sicknemesis/aosp_vendor_sicki" path="vendor/sicki" remote="gh" revision="master" />
 </manifest>
