@@ -519,7 +519,7 @@
 <!-- Added stuff -->
 <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
 <!-- Blobs -->
-<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="stock" />
+<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="master" />
 <!-- My Vendor -->
-<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="master" />
+<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="stock" />
 </manifest>
