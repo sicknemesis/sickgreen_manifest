@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="master" >
+  <project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="stock" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -50,7 +50,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" /> -->
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="master" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="stock" />
   <!-- <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" /> -->
   <project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="master" />
   <!--  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
@@ -519,7 +519,7 @@
 <!-- Added stuff -->
 <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
 <!-- Blobs -->
-<project name="sicknemesis/android_vendor_lge" path="vendor/lge" remote="gh" revision="master" />
+<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="stock" />
 <!-- My Vendor -->
-<project name="sicknemesis/aosp_vendor_sicki" path="vendor/sicki" remote="gh" revision="master" />
+<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="master" />
 </manifest>
