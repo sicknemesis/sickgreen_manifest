@@ -515,6 +515,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 <!-- Added stuff -->
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="5.1" />
+<project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="5.1" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sicki" revision="5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sicki" revision="5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sicki" revision="5.1" />
