@@ -528,4 +528,3 @@
 <!-- My Vendor -->
 <project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="stock-5.1" />
 </manifest>
-</manifest>
