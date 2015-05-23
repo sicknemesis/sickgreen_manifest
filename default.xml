@@ -10,7 +10,7 @@
            sync-j="4" />
 
  <!-- <project path="build" name="platform/build" groups="pdk,tradefed" > -->
-  <project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="stock-5.1" >
+  <project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="optimized-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -471,8 +471,8 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />
+<!--  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" />-->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
@@ -515,7 +515,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 <!-- Added stuff -->
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="5.1" />
-<project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="5.1" />
+  <project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="5.1" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sicki" revision="5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sicki" revision="5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sicki" revision="5.1" />
@@ -527,5 +527,8 @@
 <!-- Blobs -->
 <project name="rascarlo/android_vendor_lge" path="vendor/lge" remote="gh" revision="lollipop-ras-mr1" />
 <!-- My Vendor -->
-<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="stock-5.1" />
+<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="optimized-5.1" />
+<!-- UberTC -->
+<project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="BB" revision="master" />
+<project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="BB" revision="master" />
 </manifest>
