@@ -458,7 +458,7 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
+<!--  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" />
@@ -468,7 +468,7 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="master" groups="pdk,darwin,x86" /> -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
 <!--  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
@@ -515,7 +515,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 <!-- Added stuff -->
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="optimized-5.1" />
-  <project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="5.1" />
+  <project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="GCC5" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sicki" revision="5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sicki" revision="5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sicki" revision="5.1" />
@@ -526,10 +526,10 @@
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="sicki" revision="5.1" />
 <!-- Blobs -->
-<project name="rascarlo/android_vendor_lge" path="vendor/lge" remote="gh" revision="lollipop-ras-mr1" />
+<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="master" />
 <!-- My Vendor -->
 <project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="optimized-5.1" />
 <!-- UberTC -->
-<project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="BB" revision="master" />
+<project name="UBERTC/arm-eabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" remote="BB" revision="master" />
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="BB" revision="master" />
 </manifest>
