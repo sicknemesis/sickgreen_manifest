@@ -526,7 +526,7 @@
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="sicki" revision="5.1" />
 <!-- Blobs -->
-<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="master" />
+<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="5.1" />
 <!-- My Vendor -->
 <project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="optimized-5.1" />
 <!-- UberTC -->
