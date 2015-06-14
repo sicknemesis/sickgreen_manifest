@@ -530,6 +530,6 @@
 <!-- My Vendor -->
 <project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="linaro-5.1" />
 <!-- UberTC -->
-<project name="UBERTC/arm-eabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" remote="gh" revision="master" />
-<project name="arter97/arm-linux-androideabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="cm-12.0" />
+<project name="arter97/arm-linux-androideabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" remote="gh" revision="master" />
+<project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="cm-12.0" />
 </manifest>
