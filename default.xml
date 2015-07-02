@@ -5,12 +5,12 @@
 	<remote  name="gh" fetch="https://github.com/" />
 	<remote  name="sicki" fetch="https://github.com/sicknemesis/" />
 	<remote name="BB" fetch="https://bitbucket.org/" />
-	<default revision="refs/tags/android-5.1.1_r5"
+	<default revision="refs/tags/android-5.1.1_r6"
            remote="aosp"
            sync-j="4" />
 
  <!-- <project path="build" name="platform/build" groups="pdk,tradefed" > -->
-  <project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="optimized-5.1" >
+  <project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="sg-lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -514,21 +514,21 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 <!-- Added stuff -->
-  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="optimized-5.1" />
-  <project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="GCC5" />
-  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sicki" revision="5.1" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sicki" revision="5.1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sicki" revision="5.1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sicki" revision="5.1"/>
-  <project path="packages/apps/InCallUI" name="package_apps_InCallUI" remote="sicki" revision="5.1" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sicki" revision="5.1" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="sicki" revision="5.1" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="device,hammerhead" remote="sicki" revision="sg-lp" />
+  <project name="stock_kernel_hammerhead" path="kernel/lge/hammerhead" remote="sicki" revision="sg-lp" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs" remote="sicki" revision="sg-lp" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sicki" revision="sg-lp" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sicki" revision="sg-lp" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sicki" revision="sg-lp"/>
+  <project path="packages/apps/InCallUI" name="package_apps_InCallUI" remote="sicki" revision="sg-lp" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sicki" revision="sg-lp" />
+  <project path="system/core" name="platform_system_core" groups="pdk" remote="sicki" revision="sg-lp" />
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="sicki" revision="5.1" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="sicki" revision="sg-lp" />
 <!-- Blobs -->
-<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="5.1" />
+<project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="sg-lp" />
 <!-- My Vendor -->
-<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="optimized-5.1" />
+<project name="aosp_vendor_sicki" path="vendor/sicki" remote="sicki" revision="sg-lp" />
 <!-- UberTC -->
 <project name="UBERTC/arm-eabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" remote="BB" revision="master" />
 <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="BB" revision="master" />
