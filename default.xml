@@ -524,7 +524,7 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="sicki" revision="sicki-5.1.1_r6" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="sicki" revision="sicki-5.1.1_r6" />
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.0" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="sicki-5.1.1_r6" revision="sicki-5.1.1_r6" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="sicki" revision="sicki-5.1.1_r6" />
 <!-- Blobs -->
 <project name="android_vendor_lge" path="vendor/lge" remote="sicki" revision="sicki-5.1.1_r6" />
 <!-- My Vendor -->
