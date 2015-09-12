@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="platform/build" groups="pdk,tradefed" remote="sicki" revision="sg-5.1.1_r14" >
+<project path="build" name="aosp_build" groups="pdk,tradefed" remote="sicki" revision="sg-5.1.1_r14" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
